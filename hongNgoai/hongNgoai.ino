@@ -2,16 +2,18 @@
 #include <WiFiClientSecure.h>
 WiFiClientSecure client;
 String readString;
-const char* ssid = "TEN_WIFI";
-const char* password = "MAT_KHAU_WIFI";
+const char* ssid = "A14 102";
+const char* password = "khang123";
 
 const char* host = "script.google.com";
 const int httpsPort = 443;
 /*
+AKfycbxe4rcLR6SsOJGbdQ4ya5YVe_7KFfcbeuoUAZqV9XhXgL1s5r8t
+https://script.google.com/macros/s/AKfycbxe4rcLR6SsOJGbdQ4ya5YVe_7KFfcbeuoUAZqV9XhXgL1s5r8t/exec?value=
 
 */
 const char* fingerprint = "46 B2 C3 44 9C 59 09 8B 01 B6 F8 BD 4C FB 00 74 91 2F EF F6";
-String GAS_ID = "ID_CUA_THANG_SPREADSHEET";  // Replace by your GAS service id
+String GAS_ID = "AKfycbxe4rcLR6SsOJGbdQ4ya5YVe_7KFfcbeuoUAZqV9XhXgL1s5r8t";  // Replace by your GAS service id
 
 const int IN_A0 = 5; // analog input
 int value_A0;
